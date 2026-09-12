@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kelly Shema  Network Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">Kelly<span>.</span>Shema</a>
+    <ul class="navlinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="hero-tag">NETWORK ENGINEER · KIGALI, RWANDA</div>
+      <h1>Hi, I'm Kelly — I keep networks running the way they're supposed to.</h1>
+      <p class="lede">I'm currently working as a Network Engineer at ERI-Rwanda Ltd, while finishing my final year in Networks and Communication Systems at AUCA. Most of my time goes into the layer people never think about until it breaks: routing, switching, and keeping the wrong traffic out.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="cv.html" target="_blank" rel="noopener" id="cv-link">View CV ↗</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <div>
+      <svg class="topo" viewBox="0 0 360 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of a small network topology with a core router connected to distribution and access layer nodes">
+        <line x1="180" y1="70" x2="90" y2="150" class="active"></line>
+        <line x1="180" y1="70" x2="270" y2="150" class="active"></line>
+        <line x1="90" y1="150" x2="40" y2="230"></line>
+        <line x1="90" y1="150" x2="120" y2="230"></line>
+        <line x1="270" y1="150" x2="240" y2="230"></line>
+        <line x1="270" y1="150" x2="320" y2="230"></line>
+        <line x1="90" y1="150" x2="270" y2="150" class="active"></line>
+
+        <circle class="node core" cx="180" cy="70" r="16"></circle>
+        <text x="180" y="46" text-anchor="middle">CORE</text>
+
+        <circle class="node gold" cx="90" cy="150" r="12"></circle>
+        <text x="90" y="130" text-anchor="middle">DIST-A</text>
+        <circle class="node gold" cx="270" cy="150" r="12"></circle>
+        <text x="270" y="130" text-anchor="middle">DIST-B</text>
+
+        <circle class="node" cx="40" cy="230" r="8"></circle>
+        <circle class="node" cx="120" cy="230" r="8"></circle>
+        <circle class="node" cx="240" cy="230" r="8"></circle>
+        <circle class="node" cx="320" cy="230" r="8"></circle>
+        <text x="40" y="252" text-anchor="middle">VLAN10</text>
+        <text x="120" y="252" text-anchor="middle">VLAN20</text>
+        <text x="240" y="252" text-anchor="middle">VLAN30</text>
+        <text x="320" y="252" text-anchor="middle">VLAN40</text>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2>About</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p>I currently work as a Network Engineer at ERI-Rwanda Ltd, and I'm in my final year of Networks and Communication Systems at AUCA — so most weeks are split between doing the job and finishing the degree for it. Both feed each other more than people expect.</p>
+        <p>What I actually enjoy is the hands-on side: building a lab from scratch, watching a VLAN misconfiguration finally click into place, or tightening a firewall rule until it does exactly what it should and nothing more. I've spent real hours in GNS3 building multi-tier topologies with inter-VLAN routing and HSRP, and I'm just as comfortable on enterprise firewalls as I am racking a TP-Link switch on-site.</p>
+      </div>
+      <div class="facts">
+        <div class="fact">
+          <div class="fact-label">LOCATION</div>
+          <div class="fact-value">Kigali, Rwanda</div>
+        </div>
+        <div class="fact">
+          <div class="fact-label">FOCUS</div>
+          <div class="fact-value">Routing, switching, network security</div>
+        </div>
+        <div class="fact">
+          <div class="fact-label">EMAIL</div>
+          <div class="fact-value">shema.kelly@yahoo.com</div>
+        </div>
+        <div class="fact">
+          <div class="fact-label">PHONE</div>
+          <div class="fact-value">+250 789 479 759</div>
+        </div>
+        <div class="fact">
+          <div class="fact-label">GITHUB</div>
+          <div class="fact-value">kelly077777</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2>Skills</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skill-groups">
+      <div class="skill-card">
+        <h3>ROUTING & SWITCHING</h3>
+        <ul>
+          <li>VLANs & inter-VLAN routing</li>
+          <li>HSRP (first-hop redundancy)</li>
+          <li>Subnetting & IP addressing</li>
+          <li>NAT</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>SECURITY & ACCESS</h3>
+        <ul>
+          <li>ACLs</li>
+          <li>VPN configuration</li>
+          <li>QoS policy</li>
+          <li>FortiGate & pfSense firewalls</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>SYSTEMS & TOOLS</h3>
+        <ul>
+          <li>GNS3 lab design</li>
+          <li>TP-Link switch hardware</li>
+          <li>Active Directory & IIS</li>
+          <li>Docker & Traefik</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2>Experience</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-role">Network Engineer — currently working here</div>
+        <div class="tl-org">ERI-Rwanda Ltd</div>
+        <div class="tl-desc">This is my day job right now. I look after network infrastructure and internal systems, and I supervise a small team handling the ongoing technical work.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-role">Networking Intern</div>
+        <div class="tl-org">AUCA IT Department</div>
+        <div class="tl-desc">Got my first real hands-on networking experience here, supporting the university's IT infrastructure. Outside of that I was building my own three-tier GNS3 labs at home, working through VLANs, routing, and HSRP until they made sense in practice, not just on paper.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-role">Founder</div>
+        <div class="tl-org">Tech Trust Global Ltd</div>
+        <div class="tl-desc">My own company, alongside the day job. We handle Starlink installations, solar solutions, and general IT services.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2>Education</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="edu-card">
+      <div>
+        <h3>Networks and Communication Systems</h3>
+        <p>Adventist University of Central Africa (AUCA), Kigali</p>
+      </div>
+      <div class="edu-status">FINAL YEAR</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="border-bottom: none;">
+  <div class="wrap">
+    <div class="contact-inner">
+      <div class="contact-left">
+        <h2>Let's talk networks.</h2>
+        <p>I'm currently working full-time at ERI-Rwanda, but I take on freelance networking and infrastructure projects on the side — feel free to reach out.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:shema.kelly@yahoo.com">shema.kelly@yahoo.com ↗</a>
+        <a href="https://linkedin.com/in/kelly-shema/" target="_blank" rel="noopener">linkedin.com/in/kelly-shema ↗</a>
+        <a href="https://github.com/kelly077777" target="_blank" rel="noopener">github.com/kelly077777 ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Kelly Shema — Built for techtrustgloballtd.com</div>
+</footer>
+
+</body>
+</html>
