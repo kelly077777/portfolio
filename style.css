@@ -322,4 +322,15 @@
     * { transition: none !important; }
   }
 
-  a:focus-visible, .btn:focus-visible { outline: 2px solid var(--orange); outline-offset: 3px; }
+  a:focus-visible, .btn:focus-visible { outline: 2px solid var(--orange); outline-offset: 3px; } 
+    .photo-col {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 220px;
+  }
+  .cv-btn {
+    justify-content: center;
+    width: 100%;
+  }
